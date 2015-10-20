@@ -1,4 +1,4 @@
-package com.thomsonreuters.cpl.batch;
+package com.tr.batch;
 
 
 import org.junit.Test;

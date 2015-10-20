@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>CPL Batch Services</name>
+	<name> Batch Services</name>
 	<description>Batch services</description>
 
 	<parent>
@@ -55,12 +55,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.restdocs</groupId>
-			<artifactId>spring-restdocs-mockmvc</artifactId>
-			<version>1.0.0.RC1</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -114,14 +108,14 @@
 		</plugins>
 	</build>
 
-	<repositories>
+	<!-- <repositories>
 		<repository>
 			<id>nexus</id>
 			<url></url>
 		</repository>
-	</repositories>
+	</repositories> -->
 
-	<distributionManagement>
+	<!-- <distributionManagement>
 		<repository>
 			
 		</repository>
@@ -129,6 +123,6 @@
 		<snapshotRepository>
 			
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement> -->
 
 </project>
